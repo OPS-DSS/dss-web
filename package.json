@@ -1,28 +1,32 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "@ops-dss/web",
   "type": "module",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
+  "author": "OPS/PAHO",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint --max-warnings 0",
-    "check-types": "tsc --noEmit"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "next": "^15.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "astro": "^5.15.1",
+    "@ops-dss/ui": "workspace:*"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.15.3",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
-    "eslint": "^9.34.0",
-    "typescript": "5.9.2"
+    "@ops-dss/eslint-config": "workspace:*",
+    "@ops-dss/typescript-config": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPS-DSS/dss-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OPS-DSS/dss-web/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
