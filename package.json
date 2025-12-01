@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "astro": "^5.15.1",
-    "@ops-dss/ui": "workspace:*"
+    "@ops-dss/ui": "latest"
   },
   "devDependencies": {
-    "@ops-dss/eslint-config": "workspace:*",
-    "@ops-dss/typescript-config": "workspace:*"
+    "@ops-dss/eslint-config": "latest",
+    "@ops-dss/typescript-config": "latest"
   },
   "repository": {
     "type": "git",
