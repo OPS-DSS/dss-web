@@ -1,14 +1,15 @@
 ---
-import background from '../assets/background.svg';
+import logo from '../assets/logo-ops.svg'
 ---
 
 <div id="container">
-	<img id="background" src={background.src} alt="" fetchpriority="high" />
-	<main>
-		<section id="hero">
-			<h1>
-				OPS / PAHO - DSS Website
-			</h1>
-		</section>
-	</main>
+  <main>
+    <section id="hero" class="flex flex-col max-w-56">
+      <img src={logo.src} alt="" fetchpriority="high" />
+      <h1>
+        Unidad de Promoción de la Salud y Determinantes Sociales de la Salud -
+        OPS / PAHO
+      </h1>
+    </section>
+  </main>
 </div>
