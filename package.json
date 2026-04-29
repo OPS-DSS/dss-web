@@ -11,18 +11,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/react": "^4.4.2",
+    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/react": "^5.0.4",
+    "@ops-dss/ui": "latest",
     "@tailwindcss/vite": "^4.1.18",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "astro": "^5.16.6",
+    "astro": "^6.1.10",
     "canvas-confetti": "^1.9.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "tailwindcss": "^4.1.18",
-    "@ops-dss/ui": "latest"
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@ops-dss/eslint-config": "latest",
